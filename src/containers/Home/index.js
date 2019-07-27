@@ -1,8 +1,13 @@
 import React, { Component } from 'react'
+import { Container, Text } from './styles'
 
 class Home extends Component {
   render() {
-    return <div>DEV react-frontend-starter!</div>
+    return (
+      <Container>
+        <Text>Welcome to the official website of the Hucking Fooligans!</Text>
+      </Container>
+    )
   }
 }
 
